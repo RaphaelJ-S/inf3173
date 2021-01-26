@@ -6,6 +6,6 @@ clean :
 	rm ./prime
 
 prime: prime.c
-	$(OPT) -lm -o prime prime.c
+	$(OPT) -o prime prime.c -lm
 
 .PHONY: all clean
